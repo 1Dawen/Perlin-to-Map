@@ -2,7 +2,7 @@
 
 **C++17 · Gradient noise · Fractal and ridged terrain · Biomes · OpenGL 3.3 · Dear ImGui**
 
-An interactive 3D terrain generator built for a Computer Graphics final project. The terrain starts with a custom gradient-noise implementation and combines elevation and moisture maps to produce different biomes. An optional OpenGL viewer adds real-time parameter controls, terrain lighting, animated wireframe rendering, and simple snow/rain particles.
+An interactive 3D terrain generator. The terrain starts with a custom gradient-noise implementation and combines elevation and moisture maps to produce different biomes. An optional OpenGL viewer adds real-time parameter controls, terrain lighting, animated wireframe rendering, and simple snow/rain particles.
 
 The code is being modernized from an original two-file prototype. The **headless terrain generator and its tests compile and run independently of OpenGL**. The graphical viewer is included but has not yet been built and verified against the original development environment; see [Project status](#project-status).
 
