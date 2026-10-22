@@ -1,0 +1,16 @@
+name: C++ core tests
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Configure headless build
+        run: cmake -S . -B build -DTERRAIN_BUILD_VIEWER=OFF -DCMAKE_BUILD_TYPE=Release
+      - name: Compile
+        run: cmake --build build --parallel 2
+      - name: Tests
+        run: ctest --test-dir build --output-on-failure
