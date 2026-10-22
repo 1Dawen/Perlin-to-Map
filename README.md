@@ -4,11 +4,7 @@
 
 An interactive 3D terrain generator built for a Computer Graphics final project. The terrain starts with a custom gradient-noise implementation and combines elevation and moisture maps to produce different biomes. An optional OpenGL viewer adds real-time parameter controls, terrain lighting, animated wireframe rendering, and simple snow/rain particles.
 
-The code is being modernized from an original two-file student prototype. The **headless terrain generator and its tests compile and run independently of OpenGL**. The graphical viewer is included but has not yet been built and verified against the original development environment; see [Project status](#project-status).
-
-![Top-down example of generated biome colors](docs/generated_biome_preview.png)
-
-*An actual top-down biome map exported by the included `terrain_cli` program using seed 42 and an island mask. This is not a screenshot of the OpenGL viewer.*
+The code is being modernized from an original two-file prototype. The **headless terrain generator and its tests compile and run independently of OpenGL**. The graphical viewer is included but has not yet been built and verified against the original development environment; see [Project status](#project-status).
 
 ## Features
 
