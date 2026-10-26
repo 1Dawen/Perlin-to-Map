@@ -1,0 +1,22 @@
+{
+  "name": "perlin-terrain-generator",
+  "version-string": "1.0.0",
+  "dependencies": [
+    {
+      "name": "glad",
+      "features": [
+        "gl-api-33",
+        "loader"
+      ]
+    },
+    "glfw3",
+    "glm",
+    {
+      "name": "imgui",
+      "features": [
+        "glfw-binding",
+        "opengl3-binding"
+      ]
+    }
+  ]
+}

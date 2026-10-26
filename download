@@ -1,0 +1,20 @@
+# Build outputs
+build/
+cmake-build-*/
+.vs/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Generated terrain
+outputs/
+*.obj
+*.ppm
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.user
+*.suo
